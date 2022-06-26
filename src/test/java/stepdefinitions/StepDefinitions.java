@@ -25,7 +25,7 @@ public class StepDefinitions {
 	ReusableFunction func=new ReusableFunction();
 	public WebDriver driver;
 	Login loginPg = PageFactory.initElements(driver, Login.class);
-
+		//update
 	@When("I send Get request api")
 	public void i_send_post_api() {
 	    // Write code here that turns the phrase above into concrete actions
