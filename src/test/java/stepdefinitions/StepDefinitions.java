@@ -68,7 +68,7 @@ public class StepDefinitions {
 			String price=driver.findElement(By.xpath("//table[@class='shop_table shop_table_responsive cart woocommerce-cart-form__contents']//tbody//tr["+i+"]//td[@class='product-price']//span")).getText().trim();
 
 			String priceOne=price.replaceFirst("\\$","").replace(".00","");
-			intArray.add(Integer.parseInt(priceOne));		
+			intArray.add(Integer.parseInt(priceOne));//		
 
 		}
 		
